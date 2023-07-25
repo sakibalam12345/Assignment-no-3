@@ -21,39 +21,119 @@ font-family: 'Poppins', sans-serif;
 </style>
 </head>
 <body class="font-name">
-    <header class="max-w-7xl mx-auto">
-        <nav class="bg-[#F85559] rounded-full lg:px-5 md:px-2">
+    <header class="max-w-7xl   mx-auto  mb-40">
+        <nav class="bg-[#F85559] rounded-full lg:px-5 md:px-2 mb-14">
             <div class="navbar ">
-                <div class="navbar-start">
+                <div class="navbar-start lg:visible md:visible invisible">
                   
-                  <ul class="flex  lg:gap-5 cursor-pointer text-white">
+                  <ul class="flex  lg:gap-5 md:gap-2 cursor-pointer text-white ">
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Shop</li>
                     <li>All Fruits</li>
                   </ul>
                 </div>
-                <div class="navbar-center  lg:flex">
-                    <div class="flex items-center gap-2">
+                <div class="navbar-center flex">
+                    <div class="flex items-center lg:gap-2 md:gap-0">
                         <img src="./images/logo.png" alt="">
-                        <h1 class="font-bold text-4xl text-white">Fruit Burst</h1>
+                        <h1 class="font-bold lg:text-4xl text-white">Fruit Burst</h1>
 
                     </div>
               
                 </div>
-                <div class="navbar-end ">
-                    <div class="form-control w-full max-w-xs ">
+                <div class="navbar-end lg:visible md:visible invisible ">
+                    <div class="form-control lg:w-full max-w-xs ">
                         
                         <input type="text" placeholder="Search here"  class="input input-bordered rounded-full w-full max-w-xs relative"  /> 
                          <button class="btn btn-ghost btn-circle absolute lg:ml-64 md:ml-40  ">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                           </button>
-                       
                       </div>
                   
                 </div>
               </div>
         </nav>
+        <!-- navbar section ends here -->
+        <!-- banner section starts here -->
+        <section>
+            <div>
+                <div class="carousel lg:w-full md:w-full rounded-lg relative">
+                    <!-- slide-1 -->
+         <div id="slide1" class="carousel-item relative w-full">
+            <div class="hero h-[550px] " style="background-image: url(./images/banner4.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-3  text-5xl font-extrabold text-white">Exotic tastes at your doorstep</h1>
+                    <p class="mb-5 text-lg font-medium ">We supply highly quality organic products</p>
+                    <button class="btn bg-[#F85559] border-0 cursor-pointer">Shop Now</button>
+                  </div>
+                </div>
+            </div>
+         
+
+                
+              
+              
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+             <a href="#slide1" class="btn btn-circle">❮</a> 
+          <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+          
+         
+          <!-- slide-2 -->
+          <div id="slide2" class="carousel-item relative w-full">
+            <div class="hero h-[550px] " style="background-image: url(./images/banner2.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="lg:hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-3  text-5xl font-extrabold text-white">Exotic tastes at your doorstep</h1>
+                    <p class="mb-5 text-lg font-medium ">We supply highly quality organic products</p>
+                    <button class="btn bg-[#F85559] border-0 cursor-pointer">Shop Now</button>
+                  </div>
+                </div>
+            </div>
+              
+             
+
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+                 <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+         </div>   
+        
+                  </div>
+             
+
+                  <div class="flex bg-white shadow-2xl lg:w-[900px] md:w-[600px] items-center justify-center lg:gap-10 md:gap-10 gap-4 rounded-lg absolute py-6 px-0 lg:px-4 md:px-4 -mt-24  lg:ml-44 md:ml-24 lg:visible md:visible invisible ">
+                    <div>
+                        <img src="./images/fruit1.png" alt="">
+                        <p class="text-lg font-medium text-[#121212CC] text-center">Grape</p>
+                    </div>
+                    <div>
+                        <img src="./images/fruit2.png" alt="">
+                        <p class="text-lg font-medium text-[#121212CC] text-center" >Orange</p>
+                    </div>
+                    <div>
+                        <img src="./images/fruit3.png" alt="">
+                        <p class="text-lg font-medium text-[#121212CC] text-center">Mango</p>
+                    </div>
+                    <div>
+                        <img src="./images/fruit4.png" alt="">
+                        <p class="text-lg font-medium text-[#121212CC] text-center">Strawberry</p>
+                    </div>
+                    <div>
+                        <img src="./images/fruit5.png" alt="">
+                        <p class="text-lg font-medium text-[#121212CC] text-center">pomegranate</p>
+                    </div>
+                    
+                  </div>
+
+            </div>
+
+        </section>
 
     </header>
 
